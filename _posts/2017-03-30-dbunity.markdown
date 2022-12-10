@@ -1,0 +1,10 @@
+---
+layout: post
+title: CONTROLLING UNITY PHYSICS PARAMETERS WITH SOUND
+date: 2017-03-30 07:20:00
+description: An example of tying sound implementation to physics rather than player input.
+---
+
+This video is a little old at this point, but I wanted to showcase it as a little Unity scripting demo I did about a year ago. This video shows the use of snapshots in Unity's AudioMixer system triggered by raycast calculations between the player and the ground. There are a series of rolling sound snapshots for this little Fisher Price egg guy (one of which is silence, and is delineated by little vocalizations as he bounces), while the dB level of the master fader is controlled by a normalized ratio of current velocity / maximum velocity. Though this game was pretty heavily reworked shortly after, and this rides the line between sound design and audio programming, I felt this demo was worth sharing!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qSb8Z-4OcP0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

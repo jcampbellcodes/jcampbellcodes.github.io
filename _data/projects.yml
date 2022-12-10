@@ -1,0 +1,14 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: Sword of Destiny
+  role: Software Engineer
+  duration: 2017
+  url: "https://www.sginteractive.com/games/game-library/game-detail/sword-of-destiny"
+  description: Wrote the audio engine and gameplay code for the Scientific Games Interactive game engine, used in released title Sword of Destiny.
+
+- project: flimEngine
+  role: Software Engineer
+  duration: 2016
+  url: "https://github.com/jcampbellcodes/flimEngine"
+  description: Wrote and documented a real-time C++ 3D game engine using OpenGL and XAudio2 drivers.

@@ -1,0 +1,136 @@
+---
+layout: post
+title: C++ GAME AUDIO ENGINE PART 3 - TIMELINE DRIVEN ARCHITECTURE
+date: 2017-04-12 12:24:00
+description: How to create an event driven sound implementation system.
+---
+
+Since most of the audio signals we are dealing with in our engine are time-based (save for when we want to process them in the frequency domain), it makes sense for the functionality of our engine to be on a linear, reliable event-based timeline. This not only allows us to coordinate the time stamps of audio commands on scripts, but also queue up any other internal events we want such as commands sent from sound calls on the game thread.
+
+# BASIC TIMELINE 
+
+I set up my timeline using a command pattern, a time library for a time reference, and an STL multimap of time values to `AudioCommand`s. When the Timeline is started, the initial time is grabbed. Then a `Process` method is called once per frame in the main audio loop (via an `Update` method in the `SoundManager`). On each loop, the `Timeline`:
+
+- Grabs the current time
+- Checks it against the entries in the multimap
+- For each entry in the map whose time value is less than the current time, all audio commands mapped to that time value are fired off and removed from the map
+- The registration comes in the form of an `AudioCommand*` and a relative time value in milliseconds; the offset from the absolute start time should be hidden in the registration method. This basic timeline works well for most tasks, but you can squeeze out more advanced functionality by baking it into surrounding systems.
+
+# VALUE INTERPOLATION
+
+Interpolation (tweening) between values is incredibly important in dynamic environments, and frankly is the basis for making some really cool audio effects. You can achieve interpolation between audio parameters via the clone pattern and a factory. The actual interpolation math can be switched out for different algorithms, but the overall idea is the same, so for simplicity I'll stick with a linear curve. (Do a non-linear curve for volume tweens! Much more natural. Start with logarithmic and tweak as needed.) Here is an example of a Pan Command:
+
+{% highlight c++ %}
+class PanCommand : public AudioCommand
+{
+    private:
+    // current value
+    float panFrom;
+
+    // end value
+    const float panTo;
+
+    // total time to tween between from and to
+    const float time;
+
+    // Time between each re-add to the timeline
+    const float timeStep;
+
+    // the increment between each frame to modify 'from' value
+    float delta;
+
+    public:
+
+    //...
+    PanCommand(float from, float to, float time);
+    //...
+
+    // Overriding pure virtual
+    void execute() override;
+
+    // Overriding pure virtual
+    PanCommand* clone() override;
+};
+{% endhighlight %}
+
+# DELTA
+
+Since we are doing a linear curve, our delta remains constant (and I will calculate it in the constructor for efficiency). However, the delta will change every frame for more complex curves, so this will need to be addressed. One possible solution is to calculate all the deltas on creation once you know the length of the tween and grab them as needed rather than calculate each new delta inside of execute().
+
+Here is the linear delta calculation:
+
+{% highlight c++ %}
+PanCommand::PanCommand(float from, float to, float t) : panFrom(from), panTo(to), time(t), timeStep(10.0f)
+{
+    // Number of tween frames is (Total Time / Time Step)
+    // Amount to modify "from" value is
+    // (Distance to tween / Number of Tween Frames)
+    // Reorganized below:
+    this->delta = (std::abs(from - to) * timeStep) / t;
+}
+{% endhighlight %}
+
+# CLONE PATTERN
+
+Next, the clone pattern comes in because the command needs to add itself back to the Timeline with an updated "from" value again; again, this is simplified since our delta remains constant, but you will need to also keep track of the current percentage of the tween if you want cooler curves. In either case, your clone just passes a dereferenced this pointer to a command factory and returns a recycled command with the appropriate state of the new command (updated "from" value).
+
+{% highlight c++ %}
+PanCommand * PanCommand::clone()
+{
+    return PanCommandFactory::Clone(*this);
+}
+{% endhighlight %}
+
+# EXECUTION
+
+The key part is the execute(). In here you just add the delta to the from, and then clone() yourself and get back on the timer with your timestep. The Timeline doesn't know any of this is going on; it just sees all commands as a black box and calls execute, so this approach keeps everything general and doesn't require special state checking for tweening.
+
+
+{% highlight c++ %}
+void PanCommand::execute()
+{
+    // nearEqual allows you to tweak epsilon
+    if (!nearEqual(panFrom, panTo))
+    {
+        // checks if the tween is going up or down
+        panFrom = (panFrom > panTo) ? panFrom - delta : 
+                                      panFrom + delta;
+
+    // Add a clone to the timeline;
+    // Timeline deregiters each command
+    // after execute()
+    SoundManager::InsertTimelineCommand(clone(), 
+                                        timeStep); 
+    }
+    else
+    {
+        panFrom = panTo;
+    }
+
+    sound->Pan(panFrom);
+}
+{% endhighlight %}
+
+
+# EPSILON
+
+Finally, there is one more problem to address: the resolution of floats may give you issues with the tween going on too long, so you can make a helper math function to customize the epsilon at which you consider the tween finished. Here is my nearEqual tool:
+
+{% highlight c++ %}
+// made global in this example for clarity const float TWEEN_EPSILON 0.001f;
+
+bool nearEqual(float a, float b)
+{
+    float cmp = (a - b);
+    cmp = (cmp < 0) ? -cmp : cmp;
+
+    return (cmp) <= TWEEN_EPSILON;
+}
+{% endhighlight %}
+
+
+# CONCLUSION
+
+Overall I found a central Timeline to be very useful when implementing a variety of systems, and I would recommend it as a driving force behind your audio engine. I will come back to it in the discussion of scripts, since pausing and stopping a script requires some juggling with the timeline (finding all the relevant commands, taking them off the Timeline, and returning where you left off when you hit Play again... there's some tricks there).
+
+As always, open to any comments or questions! Thanks for reading.

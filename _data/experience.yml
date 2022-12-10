@@ -1,0 +1,16 @@
+# Jobs
+- company: Universal Audio
+  position: Platform Software Engineer
+  duration: February, 2017 &mdash; Present
+  summary: <li>Development, maintenance, and documentation for the UAD audio plugin platform using C++, Python, and Linux.</li>
+
+- company: Scientific Games
+  position: Software Engineer
+  duration:  Jun, 2016 &mdash; Dec, 2016, Jun, 2017 &mdash; Jan, 2018 (break for school)
+  summary: <li>Designed and implemented client-side audio engine by writing WebAudio DSP code, C++ GUI tools with Qt, and writing real-time game and framework code for an internationally released and localized game</li>
+
+
+- company: Babaroga LLC
+  position: Sound Designer
+  duration:  Apr, 2015 &mdash; 12, 2015
+  summary: <li>Created and implemented sounds and music for VR and mobile Android video games.</li>

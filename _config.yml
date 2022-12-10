@@ -1,0 +1,83 @@
+# Site settings
+title: jack campbell - audio programmer
+email: jackcampbell@acm.org
+description: > # this means to ignore newlines until "baseurl:"
+  audio software blog
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: jc_bloops
+github_username:  jcampbellcodes
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+collections:
+  sound_design:
+    output: true
+    permalink: /sound_design/:path/
+  index:
+    output: true
+    permalink: /:path/
+
+
+
+
+
+
+    # Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Jack Campbell"
+resume_title:                   "Audio Software Engineer"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "jackcampbell@acm.org"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+#resume_contact_telephone:       "218-590-8977"
+#resume_contact_address:         "742 Evergreen Terrace, Springfield"
+
+#resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p></br>
+
+Former game sound designer who has developed a sense for creating performant native and web applications
+through academic and industry experience.
+
+Partial to audio arts and sciences as a lifelong musician.
+
+</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+#resume_looking_for_work:        "no"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     true
+resume_section_links:           true
+resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/jcampbellcodes"
+  resume_linkedin_url:          "https://www.linkedin.com/in/jackwcampbell"
+  resume_website_url:           "http://jackcampbellsounds.com"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default

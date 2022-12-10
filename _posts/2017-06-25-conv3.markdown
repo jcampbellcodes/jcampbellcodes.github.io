@@ -1,0 +1,174 @@
+---
+layout: post
+title: CONVOLUTION REVERB PART 3 - FAST CONVOLUTION
+date: 2017-06-25 15:14:00
+description: Third part in a series about convolution reverb.
+---
+Fourier transforms can be a big headache when learning about DSP, but if you can learn the practical details surrounding one type of Fourier transform (Discrete Fourier Transform) and the efficient algorithm for computing it (Fast Fourier Transform), you will find many important uses when designing audio programs. Fourier transforms have a reputation for being difficult beasts, and you will likely need to cross reference many other articles and play around in MATLAB to deeply understand them -- this article is meant to tie together some more complex topics in the context of implementing our reverb.
+
+# FREQUENCY DOMAIN
+Thus far, we have been discussing audio signals in the time domain: each float in the collection represents a discrete amplitude value recorded at a consistent rate (sample rate). However, a signal is more than just a series of floats sampled at a constant rate; it also represents a sum of frequency components known as its frequency spectrum.
+
+In some cases, it is more useful to consider a signal in terms of its frequency components. Specifically for our scenario we are taking advantage of duality: multiplication of two frequency spectra is equivalent to convolution of their corresponding time based signals. Though this property was long ignored due to the inconvenient computations required to transform signals between the time and frequency domains, the emergence of the fast Fourier transform in modern computing allowed real-time convolution by transforming a time-based signal into its Discrete Fourier Transform, multiplying by an impulse response spectrum, and transforming the result back into the time domain.
+
+# DISCRETE FOURIER TRANSFORM
+The Discrete Fourier Transform is a mathematical transformation that transforms a time based signal (amplitude vs time) to a signal of amplitude vs frequency strength. As discussed above, each signal is a sum of frequencies represented by sine waves added together at varying strengths and phases. Fourier transforms require input signals to be infinite, and since our signals will always be finite, we need to choose an approach to "fake" an infinite signal and make the math work. The DFT accepts a time based signal as periodic and discrete (as opposed to the Discrete Time Fourier Transform, which accepts an aperiodic discrete signal), so we need to pretend that our time based signal infinitely loops itself. The DTFT is aperiodic, so in that case we could pretend the signals had infinitely many zeros on either side, but in our case this approach will lead to circular convolution problems. Thus we will be computing the DFT instead.
+
+
+Before we can learn to compute a DFT, it is important to understand how a DFT is represented in terms of data. If a time-based signal is an N-size array of floats x[], the corresponding DFT X[] will be two N/2-size arrays of floats. Steven Smith describes the mathematics in much greater detail and in an intuitive manner, but essentially:
+
+- The first array can be used to calculate amplitudes of a series of cosine waves
+- The second array can be used to calculate amplitudes for a series of sine waves
+
+Each float in these arrays can be converted to those cosine or sine wave amplitude values by dividing its value by N/2. There is a lot of background to soak in before this stuff will make sense, but for now, know that float array x[N] will become ReX[N/2] and ImX[N/2] when converted to the frequency domain.
+
+# FAST CONVOLUTION (NONPARTITIONED)
+ 
+
+Fast convolution is conceptually simple with the biggest hurdle being the rather involved bookkeeping required, especially for real-world applications. Before we look at an approach to convolving a signal in real time with a partitioned impulse response, it is important to understand the basic operation and components of the overlap-save method with a nonpartitioned impulse response for simplicity. 
+
+The basic idea is that we will break the input signal into chunks of size L, transform the chunks into the frequency domain with the FFT and multiply with the impulse response's DFT, transform back to the time domain and lop on the last L samples from the resulting L + M - 1 chunk. Since the FFT algorithm assumes a periodic signal, if we take the entire chunk, we will get distortions from the ghost "loops" of the signal; both the overlap save and overlap add methods define how to avoid this distortion and only concatenate the output samples you want to the final output.
+
+ 
+
+More specifically, these are the values you will need to compute before operating on the blocks:
+
+- Input signal x(n) window size, L
+- Length of impulse response h(n), M
+- FFT size, N, computed as L+M-1, rounded up to the nearest power of two for efficiency (it works to compute L, compute N, round it up, and then extract the new L from the rounded N)
+- Impulse response with N - (M - 1) zero padding
+- Overlap buffer OLAP of size M - 1
+
+
+Once you have those values, you can begin the processing loop:
+
+- Get the time domain window xm; if computing from a signal loaded in memory, grab samples from this range, where i is the current iteration:        [i*L, ((i+1)*L) - 1]
+- Concatenate this window after the OLAP buffer and zero pad to make the range equal to FFT size
+- Save the last M - 2 samples from xm in OLAP for use in the next iteration of the loop
+- Get the DFT of this window Xm(N), multiply with impulse response's DFT H(N) to get Ym
+- Get the IDFT of Ym: ym
+- Add the last L samples of ym to the output signal y(n), discarding the first M - 1 samples
+ 
+
+Conceptually, these algorithms are simple; however, grab the correct samples at the correct time can prove to be a challenge. Next we will cover a real world version of this approach using Gardner's partitioned fast convolution.
+
+ 
+
+Below is a MATLAB example of this operation:
+
+{% highlight matlab %}
+[x, Fs] = audioread ('A.wav'); 
+[h] = audioread('CCRMAStairwell.wav'); 
+% PRE-PROCESS 
+%-------------------------------------------------------- 
+% choose input signal partition window, size L (say, 2048) 
+% find a way to make this less arbitrary 
+L = 2048; % based on length of signal 
+
+%impulse response length 
+M = length(h); 
+% size of the DFT; (L + M - 1) minimum, rounded to nearest power of 2 
+% for efficiency with FFT algorithm 
+N = 2^nextpow2(L+M-1); 
+L = N - M + 1; 
+
+% pre-compute the DFT for the impulse response 
+% zero-pad to match length of the blocks 
+h = vertcat(h, zeros(N - (M -1), 2)); 
+H = fft(h, N); 
+
+% buffer to save overlap in each iteration of the loop 
+% last M-1 samples are appended to the start of each block of x 
+% BEFORE the block's DFT is multiplied with H 
+OLAP = zeros((M - 1), 1); 
+
+% end result: a two channel signal that is the length of X convolved with H 
+% -> Length(x) + Length(h) - 1 
+y = zeros(length(x) + M - 1, 2); 
+%-------------------------------------------------------- 
+
+
+%OVERLAP-SAVE LOOP 
+%----------------------------------------------- 
+% for our purposes in this demo, loop will be a for loop from 0 to 
+% length(x)/L. runs for length of program in real-time version 
+
+% index represents how many blocks total we will compute 
+% will be adjusted for real-time applications 
+i = 0; 
+while( i < (length(x) + M) / L) 
+     % compensate for when we reach the last chunk of samples 
+    % since it will be smaller than block size 
+     k = min(((i + 1)*(L)), length(x)); 
+
+    % get the window we will be computing; block length L 
+    time_domain_input_window = (i * L) + 1:k; 
+
+
+     % get this window from the input signal 
+     x_r = x(time_domain_input_window); 
+
+     % pre-pend the saved overlap to the block 
+     x_r_overlap = vertcat(OLAP, x_r); 
+
+     % pad with zeros at the end to make up for uneven chunk of samples at      
+    % the end 
+     
+    % (zeros(length(H) - length(x_r_overlap)) will only be non-zero in that     % case 
+    x_r_zeropadded = vertcat(x_r_overlap, zeros(length(H) - length(x_r_overlap), 1)); 
+
+     % save the last M - 2 samples to pre-pend the block on the next 
+     % iteration 
+     OLAP = x_r_zeropadded(length(x_r_zeropadded) - (M - 2):length(x_r_zeropadded)); 
+
+     % get DFT of the block 
+     Xm = fft(x_r_zeropadded, N); 
+     
+     % convolve for left channel 
+     Ym_1 = Xm .* H(:,1); 
+     ym_1 = real(ifft(Ym_1)); 
+     
+     % convolve for right channel 
+     Ym_2 = Xm .* H(:,2); 
+     ym_2 = real(ifft(Ym_2)); 
+     
+     % combine into a stereo signal 
+     ym = [ym_1, ym_2]; 
+     
+     % place in the output buffer -- 
+     % from newly created output block, take the section after the 
+     % M - 1 overlap (which is discarded) to the end 
+     
+     % and put this block into the appropriate L-sized chunk in the 
+     % concatenated output signal 
+     y((i * L + 1: ((i + 1) * L) + 1), 1) = ym(M-1 : length(ym), 1); 
+     y((i * L + 1: ((i + 1) * L) + 1), 2) = ym(M-1 : length(ym), 2); 
+
+     i = i + 1; 
+end 
+%----------------------------------------------- 
+
+
+
+% this is just for output -- adding together x and y for wet/dry control 
+
+%wet/dry 
+for n = 1:size(x) 
+y(n,1) = (y(n, 1)/4) + (10 * x(n, 1)); 
+y(n, 2) = (y(n, 2)/4) + (10 * x(n, 1)); 
+end 
+%picking up extra output samples 
+%output will always be size(x) + size(h) - 1 
+for n = size(x):size(y) 
+y(n,1) = (y(n, 1)/4); 
+y(n, 2) = (y(n, 2)/4); 
+end 
+
+
+y= y/max(max(abs(y))); % normalize max. amplitude to 1 
+
+subplot(211), plot(x); 
+subplot(212), plot(y); 
+
+sound (y, Fs); 
+{% endhighlight %}
