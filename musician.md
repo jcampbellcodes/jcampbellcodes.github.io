@@ -32,6 +32,17 @@ and the Netherlands.
 - Andrea Swensson, MPR (Minnesota Public Radio)
 
 <br>
+# <center> social </center>
+<br>
+<span class="contacticon center">
+	<a href="mailto:jack@jackcampbellsounds.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://www.instagram.com/jackcampbellsounds/" target="_blank"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.facebook.com/jackcampbellmusic" target="_blank"><i class="fab fa-facebook"></i></a>
+	<a href="https://jackcampbell.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a>
+</span>
+
+
+<br>
 # <center> downloads </center>
 <br>
 <p style="text-align: center;">
