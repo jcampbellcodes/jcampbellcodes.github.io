@@ -4,7 +4,7 @@ permalink: /
 ---
 <div class="header-bar">
   <h1>HELLO!</h1>
-  <h2>I am an audio engineer based in Boulder, CO.</h2>
+  <h2>I am a music person based in Boulder, CO.</h2>
   <br/>
   <hr>
   <br/>
@@ -28,20 +28,20 @@ permalink: /
     </div>
     <br/>
     <br/>
-    <p>Blog posts exploring audio engine architecture, audio APIs and frameworks for games and plugins, and designing DSP C++ applications.</p>
+    <p>Go here for music tech blog posts</p>
 </div>
 
 <div class="project-homepage">
     <div class="thumbnail-homepage">
-        <a href="{{ site.baseurl }}/sound_design/">
-        <img class="thumbnail-homepage" src="/img/nord.jpg"/>  
+        <a href="{{ site.baseurl }}/music/">
+        <img class="thumbnail-homepage" src="/img/atlantis.jpg"/>  
         <span>
-            <h1>Sound Design</h1>
+            <h1>Music Stuff</h1>
             <br/>
         </span>
         </a>
     </div>
     <br/>
     <br/>
-    <p>Projects completed as a sound designer for games and film.</p>
+    <p> Go here for info on my records and live shows</p>
 </div>

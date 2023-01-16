@@ -1,7 +1,10 @@
 # jack campbell website
 
-portfolio, blog, "about me" stuff
+A spot for tech blog posts and a music EPK
 
-made with jekyll, based on the `*folio` theme
+### made with jekyll
 
-migrated from squarespace
+### to build locally:
+```
+bundle exec jekyll serve
+```
