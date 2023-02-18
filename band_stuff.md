@@ -30,6 +30,15 @@ permalink: /band_stuff/
 <a href="charts/one-day-at-a-time-chart.pdf">One Day At A Time</a>
 <br>
 
+# Part Snippets
+
+<br>
+<a href="charts/itisntrealbridge-transposed.pdf">It Isn't Real Bridge - Sax</a>
+<br>
+<a href="charts/itisntrealmelody-transposed.pdf">It Isn't Real Outro - Sax</a>
+<br>
+<a href="charts/one-day-at-a-time-hook-transposed.jpg">One Day At A Time - Sax Part</a>
+
 # Demos
 
 <br>
