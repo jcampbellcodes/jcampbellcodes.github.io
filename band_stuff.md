@@ -59,56 +59,58 @@ permalink: /band_stuff/
 <br>
 <a href="https://docs.google.com/spreadsheets/d/1vU8aDYeAyw2ip9CdTubh3pygxsnR29IUSjm3mdH_RS0/edit?usp=sharing">Google Sheets For Specific Gigs</a>
 <br>
-- Scared of Heights
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0f91ff/track=2283032254/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe>
 
-- What it Takes
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226369140/size=small/bgcol=333333/linkcol=0f91ff/track=1544172260/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/absentee">Absentee by Jack Campbell</a></iframe>
-
-- Festering Wound
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0f91ff/track=961217851/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe>
-
-- Second Thoughts
-<br>
-<br>
-<a href="demos/second_thoughts_demo.mp3">Second Thoughts Demo</a>
-
-- Want
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0687f5/track=4200499227/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe>
-
-- Drive
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0f91ff/track=4209249963/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe>
-
-- Laughing at Myself
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0687f5/track=1643200919/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe>
-
-- It Isn't Real
-<br>
-<a href="demos/it_isnt_real.mp3">It Isn't Real Demo</a>
-
-- Lucky Break
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0687f5/track=659156229/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe>
-
-- Home Alone
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0f91ff/track=1267972607/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe>
-
-- Arm and a Leg
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0f91ff/track=2745288164/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe>
-
-
-- One Day At A Time
-<br>
-<a href="demos/one-day-at-a-time.mp3">One Day At A Time Demo</a>
-
-- Absentee
-<br>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226369140/size=small/bgcol=333333/linkcol=0f91ff/track=4133943999/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/absentee">Absentee by Jack Campbell</a></iframe>
+<table>
+  <tr>
+    <th>Song</th>
+    <th>Recording</th>
+  </tr>
+  <tr>
+    <td>Scared of Heights</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0f91ff/track=2283032254/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>What It Takes</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226369140/size=small/bgcol=333333/linkcol=0f91ff/track=1544172260/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/absentee">Absentee by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>Festering Wound</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0f91ff/track=961217851/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>Second Thoughts</td>
+    <td><a href="demos/second_thoughts_demo.mp3">Second Thoughts Demo</a></td>
+  </tr>
+    <tr>
+    <td>Want</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0687f5/track=4200499227/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>Drive</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0f91ff/track=4209249963/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>Laughing At Myself</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0687f5/track=1643200919/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>It Isn't Real</td>
+    <td><a href="demos/it_isnt_real.mp3">It Isn't Real Demo</a></td>
+  </tr>
+    <tr>
+    <td>Lucky Break</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0687f5/track=659156229/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe></td>
+  </tr>
+    <tr>
+    <td>Home Alone</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0f91ff/track=1267972607/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe></td>
+  </tr>
+      <tr>
+    <td>One Day At A Time</td>
+    <td><a href="demos/one-day-at-a-time.mp3">One Day At A Time Demo</a></td>
+  </tr>
+      <tr>
+    <td>Absentee</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226369140/size=small/bgcol=333333/linkcol=0f91ff/track=4133943999/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/absentee">Absentee by Jack Campbell</a></iframe></td>
+  </tr>
+</table>
