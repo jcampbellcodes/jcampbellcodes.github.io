@@ -29,6 +29,13 @@ permalink: /band_stuff/
 <br>
 <a href="charts/one-day-at-a-time-chart.pdf">One Day At A Time</a>
 <br>
+<a href="charts/onedayatatime_score.pdf">One Day At A Time - Score</a>
+<br>
+<a href="charts/control_score.pdf">Control - Score</a>
+<br>
+<a href="charts/itisntreal_score.pdf">It Isn't Real - Score</a>
+<br>
+
 
 # Part Snippets
 
@@ -98,8 +105,8 @@ permalink: /band_stuff/
     <td><a href="demos/it_isnt_real.mp3">It Isn't Real Demo</a></td>
   </tr>
     <tr>
-    <td>Lucky Break</td>
-    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0687f5/track=659156229/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe></td>
+    <td>Control</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4097958357/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/control">Control by Jack Campbell</a></iframe></td>
   </tr>
     <tr>
     <td>Home Alone</td>
