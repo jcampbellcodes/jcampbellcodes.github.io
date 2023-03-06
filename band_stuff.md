@@ -111,6 +111,10 @@ permalink: /band_stuff/
     <tr>
     <td>Home Alone</td>
     <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=small/bgcol=333333/linkcol=0f91ff/track=1267972607/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe></td>
+<tr>
+    <td>Arm and a Leg</td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=75804434/size=small/bgcol=333333/linkcol=0f91ff/track=2745288164/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/jack-campbell">Jack Campbell by Jack Campbell</a></iframe></td>
+  </tr>
   </tr>
       <tr>
     <td>One Day At A Time</td>
