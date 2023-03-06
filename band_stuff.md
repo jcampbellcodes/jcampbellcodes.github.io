@@ -106,7 +106,7 @@ permalink: /band_stuff/
   </tr>
     <tr>
     <td>Control</td>
-    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4097958357/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/control">Control by Jack Campbell</a></iframe></td>
+    <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4097958357/size=small/bgcol=333333/linkcol=0f91ff/track=1816978408/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/control">Control by Jack Campbell</a></iframe></td>
   </tr>
     <tr>
     <td>Home Alone</td>
