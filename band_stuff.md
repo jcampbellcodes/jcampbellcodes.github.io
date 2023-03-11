@@ -4,6 +4,18 @@ title: band stuff
 description: pseudo-hidden page with stuff for the band
 permalink: /band_stuff/
 ---
+# Scores
+
+<br>
+<a href="charts/onedayatatime_score.pdf">One Day At A Time</a>
+<br>
+<a href="charts/control_score.pdf">Control</a>
+<br>
+<a href="charts/itisntreal_score.pdf">It Isn't Real</a>
+<br>
+<a href="charts/want_score.pdf">Want</a>
+<br>
+
 # Charts
 
 <br>
@@ -28,23 +40,6 @@ permalink: /band_stuff/
 <a href="charts/what_it_takes.pdf">What it Takes</a>
 <br>
 <a href="charts/one-day-at-a-time-chart.pdf">One Day At A Time</a>
-<br>
-<a href="charts/onedayatatime_score.pdf">One Day At A Time - Score</a>
-<br>
-<a href="charts/control_score.pdf">Control - Score</a>
-<br>
-<a href="charts/itisntreal_score.pdf">It Isn't Real - Score</a>
-<br>
-
-
-# Part Snippets
-
-<br>
-<a href="charts/itisntrealbridge-transposed.pdf">It Isn't Real Bridge - Sax</a>
-<br>
-<a href="charts/itisntrealmelody-transposed.pdf">It Isn't Real Outro - Sax</a>
-<br>
-<a href="charts/one-day-at-a-time-transposed.pdf">One Day At A Time - Sax Part</a>
 
 # Demos
 
