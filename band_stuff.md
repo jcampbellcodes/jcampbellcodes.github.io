@@ -4,7 +4,12 @@ title: band stuff
 description: pseudo-hidden page with stuff for the band
 permalink: /band_stuff/
 ---
-# Scores
+# shows
+<a href="https://www.songkick.com/artists/5273638" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent" data-locale="en">Jack Campbell tour dates</a>
+<script src="//widget.songkick.com/5273638/widget.js"></script>
+
+
+# scores
 
 <br>
 <a href="charts/onedayatatime_score.pdf">One Day At A Time</a>
@@ -16,7 +21,7 @@ permalink: /band_stuff/
 <a href="charts/want_score.pdf">Want</a>
 <br>
 
-# Charts
+# charts
 
 <br>
 (Right-Click -> Save As to download)
@@ -41,22 +46,7 @@ permalink: /band_stuff/
 <br>
 <a href="charts/one-day-at-a-time-chart.pdf">One Day At A Time</a>
 
-# Demos
-
-<br>
-<a href="demos/second_thoughts_demo.mp3">Second Thoughts Demo</a>
-<br>
-<a href="demos/it_isnt_real.mp3">It Isn't Real Demo</a>
-<br>
-<a href="demos/one-day-at-a-time.mp3">One Day At A Time Demo</a>
-<br>
-<a href="demos/one-day-at-a-time-cheesy-instrumental-demo-from-college.mp3">One Day At A Time (2013) -- cheesy instrumental demo from college, but has some ideas for drum parts, bass parts, etc</a>
-<br>
-<a href="demos/buried alive demo.mp3">Buried Alive Demo (2013)</a>
-<br>
-<a href="demos/pulling weeds demo.mp3">Pulling Weeds Demo (2013)</a>
-
-### Setlist 
+### setlist 
 
 <br>
 <a href="https://docs.google.com/spreadsheets/d/1vU8aDYeAyw2ip9CdTubh3pygxsnR29IUSjm3mdH_RS0/edit?usp=sharing">Google Sheets For Specific Gigs</a>
@@ -120,3 +110,18 @@ permalink: /band_stuff/
     <td><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226369140/size=small/bgcol=333333/linkcol=0f91ff/track=4133943999/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/absentee">Absentee by Jack Campbell</a></iframe></td>
   </tr>
 </table>
+
+# demos
+
+<br>
+<a href="demos/second_thoughts_demo.mp3">Second Thoughts Demo</a>
+<br>
+<a href="demos/it_isnt_real.mp3">It Isn't Real Demo</a>
+<br>
+<a href="demos/one-day-at-a-time.mp3">One Day At A Time Demo</a>
+<br>
+<a href="demos/one-day-at-a-time-cheesy-instrumental-demo-from-college.mp3">One Day At A Time (2013) -- cheesy instrumental demo from college, but has some ideas for drum parts, bass parts, etc</a>
+<br>
+<a href="demos/buried alive demo.mp3">Buried Alive Demo (2013)</a>
+<br>
+<a href="demos/pulling weeds demo.mp3">Pulling Weeds Demo (2013)</a>
