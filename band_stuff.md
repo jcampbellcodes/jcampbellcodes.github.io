@@ -25,6 +25,8 @@ permalink: /band_stuff/
 <br>
 <a href="charts/want_score.pdf">Want</a>
 <br>
+<a href="charts/armandaleg-score.pdf">Arm and a Leg</a>
+<br>
 
 # charts
 
