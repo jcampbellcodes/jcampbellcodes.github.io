@@ -5,7 +5,12 @@ description: pseudo-hidden page with stuff for the band
 permalink: /band_stuff/
 ---
 # shows
-<a href="https://www.songkick.com/artists/5273638" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent" data-locale="en">Jack Campbell tour dates</a>
+
+<br>
+<a href="https://calendar.google.com/calendar/u/0?cid=NjEwZTk3ZDFlOTViOThlNzMzYTZiYzZmZjcwZDk2ZWEwNmYxMTFmZWE1ZmEzMWE4YWY2ZGJiYTFjOWFmNTZlOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Google Calendar For Gigs / Practices</a>
+<br>
+
+<a href="https://www.songkick.com/artists/5273638" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent" data-locale="en">Confirmed shows via songkick:</a>
 <script src="//widget.songkick.com/5273638/widget.js"></script>
 
 
