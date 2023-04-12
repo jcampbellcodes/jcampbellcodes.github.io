@@ -27,6 +27,8 @@ permalink: /band_stuff/
 <br>
 <a href="charts/armandaleg-score.pdf">Arm and a Leg</a>
 <br>
+<a href="charts/pulling-weeds-score.pdf">Pulling Weeds</a>
+<br>
 
 # charts
 
