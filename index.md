@@ -4,7 +4,8 @@ permalink: /
 ---
 <div class="header-bar">
   <h1>HELLO!</h1>
-  <h2>I am a music person based in Boulder, CO.</h2>
+  <h2>I am a music person based in Colorado</h2>
+  <h2>choose a path below...</h2>
   <br/>
   <hr>
   <br/>
@@ -21,27 +22,27 @@ permalink: /
         <a href="{{ site.baseurl }}/blog/">
         <img class="thumbnail-homepage" src="/img/audio_engine_code.png"/>  
         <span>
-            <h1>Audio Programming</h1>
+            <h1>Audio Programmer</h1>
             <br/>
         </span>
         </a>
     </div>
     <br/>
     <br/>
-    <p>Go here for music tech blog posts</p>
+    <p>I nerd out about building music gear here</p>
 </div>
 
 <div class="project-homepage">
     <div class="thumbnail-homepage">
         <a href="{{ site.baseurl }}/music/">
-        <img class="thumbnail-homepage" src="/img/atlantis.jpg"/>  
+        <img class="thumbnail-homepage" src="/img/club156_green.jpg"/>  
         <span>
-            <h1>Music Stuff</h1>
+            <h1>Musician</h1>
             <br/>
         </span>
         </a>
     </div>
     <br/>
     <br/>
-    <p> Go here for info on my records and live shows</p>
+    <p>Recordings, bios, and info about our band, Jack Campbell & the Head Mess</p>
 </div>

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: jack campbell
+title: jack campbell & the head mess
 permalink: /music/
 ---
 
-<figure>
-  <img class="col center" style="margin-bottom:10%;" src="/img/prof_pic.jpg">
-</figure>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 # <center> bio </center> 
 <br>
@@ -14,22 +14,19 @@ permalink: /music/
 > "Something tells me there's a bright future ahead for Jack Campbell."
 > - Andrea Swensson, MPR (Minnesota Public Radio)
 
-Indie songwriter Jack Campbell's latest release, Lucky Break (2019), comes off the heels of finding his new
+Based in Colorado, Jack Campbell & the Head Mess draws on the Minneapolis 
+punk rock tradition of stuffing catchy pop earworms
+into a gritty garage rock package. Led by singer-songwriter Jack Campbell, 
+the band has been bringing a decade's worth of tunes about relationships and 
+mental health to life, with the help of screamin' sax solos and grungey basslines. 
+
+Jack's latest release, Lucky Break (2019), comes off the heels of finding his new
 home base on the Colorado Front Range, where he moved to build audio effects and guitar pedals
 by day and play his tunes at dives by night.
 
-Originally hailing from the icy northern Minnesota port town of Duluth, Jack
-has spent much of the last decade warming up inside with
-a guitar and a tape recorder. In keeping with the Midwestern approach to life,
-many of the difficult subjects explored in his songs are hidden behind a smirking
-pop facade.
-
-Campbell's music has found a worldwide audience following the release of 
-Absentee (2013), with much of his fanbase spread throughout the UK, Germany,
-and the Netherlands. 
-
-In 2023, Campbell has set his sights on the Boulder/Denver music
-scene, putting together a live show with the help of a new group of local musicians.
+His music has found a worldwide audience following the release of 
+Absentee (2013) and its feature during a Welcome to Night Vale weather segment, 
+with much of his fanbase spread throughout the UK, Germany, and the Netherlands. 
 
 <br>
 
@@ -37,20 +34,6 @@ scene, putting together a live show with the help of a new group of local musici
 
 <a href="https://www.songkick.com/artists/5273638" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent" data-locale="en">Jack Campbell tour dates</a>
 <script src="//widget.songkick.com/5273638/widget.js"></script>
-
-# <center> live </center>
-<br>
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5q3KD3hXVlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jNcOPxWPVrw?start=87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/zlvF7JVtYmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
 
 
 # <center> social </center>
@@ -81,6 +64,22 @@ scene, putting together a live show with the help of a new group of local musici
 >"absentee is proof positive that all the hard work campbell poured into his music
 was worth it"
 >- eric thompson, city pages minneapolis
+
+<br>
+# <center> photos </center>
+<br>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/fullband_cropped.jpg">
+</figure>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/club156_blue.jpg">
+</figure>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/prof_pic.jpg">
+</figure>
 
 <br>
 # <center> downloads </center>
