@@ -1,8 +1,12 @@
 ---
 layout: page
-title: jack campbell & the head mess
+title: ""
 permalink: /music/
 ---
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-4.png">
+</figure>
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -79,6 +83,14 @@ was worth it"
 
 <figure>
   <img class="col center" style="margin-bottom:10%;" src="/img/prof_pic.jpg">
+</figure>
+
+<br>
+# <center> logo </center>
+<br>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-1.png">
 </figure>
 
 <br>
