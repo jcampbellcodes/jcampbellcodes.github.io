@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: main
 permalink: /
 ---
-<!-- <figure>
+<figure>
   <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-4.png">
-</figure> -->
+</figure>
 
 <!-- <center>
 <h1>JACK CAMPBELL</h1>
