@@ -2,6 +2,8 @@
 layout: main
 permalink: /
 ---
+<br>
+<br>
 <figure>
   <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-4.png">
 </figure>
