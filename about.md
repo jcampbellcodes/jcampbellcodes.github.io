@@ -73,9 +73,21 @@ was worth it"
 # <center> logo </center>
 <br>
 
-<figure>
+<!-- <figure>
   <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-1.png">
+</figure> -->
+
+with band:
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-4.png">
 </figure>
+
+for solo:
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jc-logo.png">
+</figure>
+
+
 
 <br>
 # <center> downloads </center>
