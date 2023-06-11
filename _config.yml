@@ -36,7 +36,7 @@ resume_name:                    "Jack Campbell"
 resume_title:                   "Audio Software Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "jackcampbell@acm.org"
+resume_contact_email:           "jack@jackcampbellsounds.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 #resume_contact_telephone:       "218-590-8977"

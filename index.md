@@ -2,47 +2,33 @@
 layout: default
 permalink: /
 ---
-<div class="header-bar">
-  <h1>HELLO!</h1>
-  <h2>I am a music person based in Colorado</h2>
-  <h2>choose a path below...</h2>
-  <br/>
-  <hr>
-  <br/>
-</div>
+<!-- <figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-4.png">
+</figure> -->
 
-<!-- <div class="img_row">
-  <img class="col one" style="width: 50%;" src="{{ site.baseurl }}/img/audio_engine_code.png">
-  <img class="col two" style="width: 50%;" src="{{ site.baseurl }}/img/nord.jpg">
-</div> -->
+<!-- <center>
+<h1>JACK CAMPBELL</h1>
+<h2>& THE HEAD MESS</h2>
+</center> -->
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="Jack Campbell - Absentee" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+</center>
+
+<br>
+<center>
+Based in Colorado, Jack Campbell & the Head Mess draws on the Minneapolis 
+punk rock tradition of stuffing catchy pop earworms
+into a gritty garage rock package. Led by singer-songwriter Jack Campbell, 
+the band has been bringing a decade's worth of tunes about relationships and 
+mental health to life, with the help of screamin' sax solos and grungey basslines. 
+</center>
 
 
-<div class="project-homepage">
-    <div class="thumbnail-homepage">
-        <a href="{{ site.baseurl }}/blog/">
-        <img class="thumbnail-homepage" src="/img/audio_engine_code.png"/>  
-        <span>
-            <h1>Audio Programmer</h1>
-            <br/>
-        </span>
-        </a>
-    </div>
-    <br/>
-    <br/>
-    <p>I nerd out about building music gear here</p>
-</div>
-
-<div class="project-homepage">
-    <div class="thumbnail-homepage">
-        <a href="{{ site.baseurl }}/music/">
-        <img class="thumbnail-homepage" src="/img/club156_green.jpg"/>  
-        <span>
-            <h1>Musician</h1>
-            <br/>
-        </span>
-        </a>
-    </div>
-    <br/>
-    <br/>
-    <p>Recordings, bios, and info about our band, Jack Campbell & the Head Mess</p>
-</div>
+<br>
+<center>
+<h1>Shows</h1>
+</center>
+<br>
+<a href="https://www.songkick.com/artists/5273638" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent" data-locale="en">Jack Campbell tour dates</a>
+<script src="//widget.songkick.com/5273638/widget.js"></script>

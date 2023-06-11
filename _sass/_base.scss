@@ -13,12 +13,13 @@ dl, dd, ol, ul, figure {
 /** Variables **********************************************/
 //$base-font-family:              Helvetica, sans-serif;
 @font-face {
-    font-family: "SourceCode";
-    src: url("/css/fonts/ttf/SourceCodePro-Light.ttf") format("truetype");
-    src: url("/css/fonts/otf/SourceCodePro-Light.otf") format("opentype"),
+    font-family: "Avenir";
+    src: url("/css/fonts/otf/AvenirLTStd-Black.otf") format("opentype");
+    src: url("/css/fonts/otf/AvenirLTStd-Book.otf") format("opentype");
+    src: url("/css/fonts/otf/AvenirLTStd-Roman.otf") format("opentype"),
 }
 
-$base-font-family:              "Courier New", sans-serif;
+$base-font-family:              "Avenir", sans-serif;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -39,7 +40,7 @@ $caption_color: #aaa;
 
 /* COLORS  */
 $red:  #FF3636;
-$orange: #F29105;
+$orange: #6fe3f7;
 $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $green;
+    color: $orange;
     text-decoration: none;
     /*
     &:visited {
