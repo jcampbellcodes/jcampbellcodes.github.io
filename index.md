@@ -1,5 +1,6 @@
 ---
 layout: main
+title: Jack Campbell Music
 permalink: /
 ---
 <br>

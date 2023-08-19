@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: Jack Campbell Music
 permalink: /about/
 ---
 

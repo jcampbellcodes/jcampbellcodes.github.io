@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: Jack Campbell Music
 permalink: /music/
 ---
 
@@ -9,7 +9,6 @@ permalink: /music/
 </center>
 <br>
 
-Not a huge fan of the numbers game, but for the promoters out there: <br>
 Over the last decade, we have put out five records and have built a base of over 30k monthly listeners. 
 Our biggest splash has been "Absentee", with over 4 million streams from around the world.
 The response from our listeners over the years has meant the world to us!
