@@ -20,11 +20,9 @@ the band has been bringing a decade's worth of tunes about relationships and
 mental health to life, with the help of screamin' sax solos and grungey basslines. 
 </center>
 
-<br>
-<div class="embed-container" style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pCSEl3TEglE?si=l04Kf1HQIrzjBxgZ&amp;start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 
 <br>
