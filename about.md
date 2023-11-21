@@ -17,22 +17,20 @@ permalink: /about/
 > - Andrea Swensson, MPR (Minnesota Public Radio)
 
 <center>
-Based in Colorado, Jack Campbell & the Head Mess draws on the Minneapolis 
-punk rock tradition of stuffing catchy pop earworms
-into a gritty garage rock package. Led by singer-songwriter Jack Campbell, 
-the band has been bringing a decade's worth of tunes about relationships and 
-mental health to life, with the help of screamin' sax solos and grungey basslines. 
+Colorado-based Jack Campbell & the Head Mess draws on the Minneapolis 
+punk rock tradition of stuffing infectious pop earworms and unique harmonic flavors
+into a gritty garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Elvis Costello, conceals deeper themes of mental health and relationship struggles.
 <br>
 <br>
-Jack's latest release, Lucky Break (2019), comes off the heels of finding his new
-home base on the Colorado Front Range, where he moved to build audio effects and guitar pedals
-by day and play his tunes at dives by night.
-<br>
-<br>
-His music has found a worldwide audience following the release of 
-Absentee (2013) and its feature during a Welcome to Night Vale weather segment, 
-with much of his fanbase spread throughout the UK, Germany, and the Netherlands. 
 
+Following the feature of their single "Absentee" on hit podcast Welcome to Night Vale, the group has captivated hundreds of thousands of fans around the globe.
+<br>
+<br>
+Jack's 2019 release, Lucky Break, comes off the heels of finding his new
+home base on the Colorado Front Range via Chicago, where he moved to build audio effects and guitar pedals by day and play his tunes at dives by night.
+
+Their latest single "Second Thoughts" is now available on all streaming platforms. 
+<br>
 </center>
 <br>
 
@@ -79,7 +77,11 @@ was worth it"
 
 with band:
 <figure>
-  <img class="col center" style="margin-bottom:10%;" src="/img/jackcampbell-logo-4.png">
+  <img class="col center" style="margin-bottom:10%;" src="/img/logo1.png">
+</figure>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/logo3.png">
 </figure>
 
 for solo:
