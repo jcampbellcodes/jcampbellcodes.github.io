@@ -55,15 +55,19 @@ was worth it"
 <br>
 
 <figure>
-  <img class="col center" style="margin-bottom:10%;" src="/img/fullband_cropped.jpg">
-</figure>
-
-<figure>
   <img class="col center" style="margin-bottom:10%;" src="/img/club156_blue.jpg">
 </figure>
 
 <figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/club156_green.jpg">
+</figure>
+
+<figure>
   <img class="col center" style="margin-bottom:10%;" src="/img/prof_pic.jpg">
+</figure>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/fullband_cropped.jpg">
 </figure>
 
 <br>
@@ -88,6 +92,20 @@ for solo:
   <img class="col center" style="margin-bottom:10%;" src="/img/jc-logo.png">
 </figure>
 
+
+<br>
+# <center> social </center>
+<br>
+
+<center>email: jack (at) jackcampbellsounds.com</center>
+
+<br>
+<span class="contacticon center">
+	<a href="mailto:jack@jackcampbellsounds.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://www.instagram.com/jackcampbellsounds/" target="_blank"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.facebook.com/jackcampbellmusic" target="_blank"><i class="fab fa-facebook"></i></a>
+	<a href="https://jackcampbell.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a>
+</span>
 
 
 <br>
