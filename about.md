@@ -5,11 +5,10 @@ permalink: /about/
 ---
 
 <center>
-<div class="embed-container" style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</center>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5XNrzRW31KTagROktPwzRY?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+</center>
+<br>
 # <center> bio </center> 
 <br>
 
