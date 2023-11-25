@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jack Campbell Music
+title: electronic press kit
 permalink: /about/
 ---
 
