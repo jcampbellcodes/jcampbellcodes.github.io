@@ -10,8 +10,8 @@ permalink: /
 <center>
 
 Colorado-based Jack Campbell & the Head Mess draws on the Minneapolis 
-punk rock tradition of stuffing infectious pop earworms and unique harmonic flavors
-into a gritty garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Elvis Costello, conceals deeper themes of mental health and relationship struggles. Following the feature of their single "Absentee" on hit podcast Welcome to Night Vale, the group has captivated hundreds of thousands of fans around the globe, and their latest single "Second Thoughts" is now available on all streaming platforms.
+songwriting tradition of stuffing infectious pop earworms and unique harmonic flavors
+into a fuzzy garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Elvis Costello, conceals deeper themes of mental health and relationship struggles. Following the feature of their single "Absentee" on hit podcast Welcome to Night Vale, the group has captivated hundreds of thousands of fans around the globe, and their latest single "Second Thoughts" is now available on all streaming platforms.
 
 </center>
 <br>

@@ -17,8 +17,8 @@ permalink: /about/
 
 <center>
 Colorado-based Jack Campbell & the Head Mess draws on the Minneapolis 
-punk rock tradition of stuffing infectious pop earworms and unique harmonic flavors
-into a gritty garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Elvis Costello, conceals deeper themes of mental health and relationship struggles.
+songwriting tradition of stuffing infectious pop earworms and unique harmonic flavors
+into a fuzzy garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Elvis Costello, conceals deeper themes of mental health and relationship struggles.
 <br>
 <br>
 
