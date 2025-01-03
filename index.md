@@ -3,7 +3,7 @@ layout: main
 title: Jack Campbell Music
 permalink: /
 ---
-  <img class="col center" style="margin-bottom:5%;" src="/img/logo1.png">
+  <img class="col center" style="margin-bottom:5%;" src="/img/front_page_1.png">
 <br>
 <br>
 
