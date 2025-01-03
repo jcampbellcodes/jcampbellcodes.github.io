@@ -16,9 +16,8 @@ permalink: /about/
 > - Andrea Swensson, MPR (Minnesota Public Radio)
 
 <center>
-Colorado-based Jack Campbell & the Head Mess draws on the Minneapolis 
-songwriting tradition of stuffing infectious pop earworms and unique harmonic flavors
-into a fuzzy garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Elvis Costello, conceals deeper themes of mental health and relationship struggles.
+Colorado-based Jack Campbell & the Head Mess stuffs infectious pop earworms and unique harmonic flavors
+into a fuzzy garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, Spoon, and Elvis Costello, conceals deeper themes of mental health and relationship struggles.
 <br>
 <br>
 
@@ -55,11 +54,11 @@ was worth it"
 <br>
 
 <figure>
-  <img class="col center" style="margin-bottom:10%;" src="/img/club156_blue.jpg">
+  <img class="col center" style="margin-bottom:10%;" src="/img/jc_band_4.jpg">
 </figure>
 
 <figure>
-  <img class="col center" style="margin-bottom:10%;" src="/img/club156_green.jpg">
+  <img class="col center" style="margin-bottom:10%;" src="/img/jc_band_3.jpg">
 </figure>
 
 <figure>
@@ -67,7 +66,15 @@ was worth it"
 </figure>
 
 <figure>
-  <img class="col center" style="margin-bottom:10%;" src="/img/fullband_cropped.jpg">
+  <img class="col center" style="margin-bottom:10%;" src="/img/jc_duo_1.jpg">
+</figure>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jc_band_1.jpg">
+</figure>
+
+<figure>
+  <img class="col center" style="margin-bottom:10%;" src="/img/jc_band_2.jpg">
 </figure>
 
 <br>

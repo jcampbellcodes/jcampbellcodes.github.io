@@ -25,6 +25,10 @@ We have live sets with both a full band and a duo format depending on what the s
 </center>
 
 <center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QWnsf-G_NtA?si=hReyxuM-_Tsv4rVW&amp;start=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<center>
 <div class="embed-container" style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
