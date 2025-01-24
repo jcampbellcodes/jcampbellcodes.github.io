@@ -5,15 +5,6 @@ permalink: /music/
 ---
 
 We have live sets with both a full band and a duo format depending on what the show calls for.
-<center>
-<h1>Duo</h1>
-</center>
-<br>
-
-<center>
-<iframe width="315" height="560" src="https://www.youtube.com/embed/ucswXrQHifE?si=GBgfY7HsQj70wrdQ&amp;start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
 <br>
 <center>
 <h1>Full Band</h1>
@@ -21,7 +12,7 @@ We have live sets with both a full band and a duo format depending on what the s
 <br>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pCSEl3TEglE?si=l04Kf1HQIrzjBxgZ&amp;start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F_41DlmzOCE?si=4Nvf8mbE4cPjYegZ&amp;start=34&modestbranding=1&rel=0&iv_load_policy=3&controls=0&fs=0" title="Jack Campbell Live Full Band 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 <center>
@@ -30,8 +21,17 @@ We have live sets with both a full band and a duo format depending on what the s
 
 <center>
 <div class="embed-container" style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MbcMuSlRpfQ?start=117" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cyJ3r2dKwuo?si=k8AcXeP-rKWE9rTU&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+</center>
+
+<center>
+<h1>Duo</h1>
+</center>
+<br>
+
+<center>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/ucswXrQHifE?si=GBgfY7HsQj70wrdQ&amp;start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
 <br>
