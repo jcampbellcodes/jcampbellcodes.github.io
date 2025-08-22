@@ -4,8 +4,12 @@ title: electronic press kit
 permalink: /about/
 ---
 
+<!-- https://www.youtube.com/watch?v=rMaYUC8xl3g -->
+
 <center>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5XNrzRW31KTagROktPwzRY?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5XNrzRW31KTagROktPwzRY?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+
+<iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3033148406/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://jackcampbell.bandcamp.com/album/lucky-break">Lucky Break by Jack Campbell</a></iframe>
 
 </center>
 <br>
@@ -31,6 +35,26 @@ Their latest single "Second Thoughts" is now available on all streaming platform
 <br>
 </center>
 <br>
+
+
+<br>
+<center>
+<h1>Full Band Live</h1>
+</center>
+<br>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rMaYUC8xl3g?si=2_Dooo7FqYUyNQTh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<center>
+<h1>Duo Live</h1>
+</center>
+<br>
+
+<center>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/ucswXrQHifE?si=GBgfY7HsQj70wrdQ&amp;start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 
 <br>
