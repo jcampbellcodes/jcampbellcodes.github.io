@@ -20,18 +20,15 @@ permalink: /about/
 > - Andrea Swensson, MPR (Minnesota Public Radio)
 
 <center>
-Colorado-based Jack Campbell & the Head Mess stuffs infectious pop earworms and unique harmonic flavors
-into a fuzzy garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, Spoon, and Elvis Costello, conceals deeper themes of mental health and relationship struggles.
-<br>
-<br>
+Colorado-based Jack Campbell & the Head Mess draws on the Minneapolis songwriting tradition of stuffing infectious pop earworms and unique harmonic flavors into a fuzzy garage rock package. Their danceable indie rock veneer, akin to influences such as Sondre Lerche, the Replacements, and Built To Spill, centers around themes of mental health and addiction struggles. 
 
-Following the feature of their single "Absentee" on hit podcast Welcome to Night Vale, the group has captivated hundreds of thousands of fans around the globe.
 <br>
 <br>
-Jack's 2019 release, Lucky Break, comes off the heels of finding his new
-home base on the Colorado Front Range via Chicago, where he moved to build audio effects and guitar pedals by day and play his tunes at dives by night.
+Jack's music has found a worldwide audience following the release of Absentee (2013) and its feature during a Welcome to Night Vale weather segment, with much of his fanbase spread throughout the UK, Germany, and the Netherlands. 
 
-Their latest single "Second Thoughts" is now available on all streaming platforms. 
+<br><br>
+The group's latest release, Head Mess Sessions, is a DIY entry recorded in the Head Mess home studio in Arvada. It features clarinet trio arrangements through a distortion pedalboard, disco-style boots 'n cats, and a fuzzy ode to the loss of a fuzzy friend.
+
 <br>
 </center>
 <br>
@@ -145,7 +142,18 @@ for solo:
 <p style="text-align: center;">
 (Right-Click -> Save As to download)
 <br>
-<a href="audio/jack_campbell_second_thoughts.wav">NEW RELEASE: Second Thoughts WAV</a>
+# <center> Head Mess Sessions </center>
+<br>
+<a href="audio/0_Pulling Weeds.wav">Head Mess Sessions: Pulling Weeds</a>
+<br>
+<a href="audio/1_It Isn't Real.wav">Head Mess Sessions: It Isn't Real</a>
+<br>
+<a href="audio/2_Then You Closed Your Eyes.wav">Head Mess Sessions: Then You Closed Your Eyes</a>
+<br>
+<a href="audio/3_One Day At A Time.wav">Head Mess Sessions: One Day At A Time</a>
+
+<br>
+<a href="audio/jack_campbell_second_thoughts.wav">Second Thoughts WAV</a>
 <br>
 <a href="audio/jack_campbell_home_alone.wav">Home Alone WAV</a>
 <br>
